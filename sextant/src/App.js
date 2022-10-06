@@ -2,18 +2,22 @@ import React, { Component } from 'react';
 import './App.css';
 import Banner from './components/Banner';
 import Exhibit from './components/Exhibit';
+import AddressDisplay from './components/AddressDisplay';
 
 class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <Banner bannerText="Sextant" />
-                <Exhibit name="I'm an exhibit!" child="My name is praise"></Exhibit>
-                <Exhibit name="I'm also an exhibit!" child="My name is praise"></Exhibit>
-                <Exhibit name="Don't forget about me, I'm an exhibit too!" child="My name is praise"></Exhibit>
-            </div>
-        );
-    }
+  render() {
+      return (
+          <div className="App">
+              <Banner bannerText="Sextant" />
+              <Exhibit name="Public IPv4 Address">
+                  <AddressDisplay url='https://api.ipify.org?format=json' />
+              </Exhibit>
+              <Exhibit name="Public IPv6 Address">
+                  <AddressDisplay url='https://api64.ipify.org?format=json' />
+              </Exhibit>
+          </div>
+      );
+  }
 }
 
 export default App;
