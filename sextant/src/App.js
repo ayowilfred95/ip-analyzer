@@ -10,7 +10,7 @@ class App extends Component {
   render() {
       return (
           <div className="App">
-              <Banner bannerText="Sextant" />
+              <Banner bannerText="Sextant" bannerText2="Fast & Effective" bannerText4= "Solution with Fredtech" bannerText3="A professional public IP and latency information API" />
               <Exhibit name="Public IPv4 Address">
                   <AddressDisplay url='https://api.ipify.org?format=json' />
               </Exhibit>

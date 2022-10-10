@@ -3,10 +3,14 @@
     margin: 0.5vw;
     padding: 0vw 2vw 0vw 2vw;
     text-align: center;
-    color: #002933;
-    background-color: #00b8e6;
-    border: 0.25vw solid #005266;
-    border-radius: 2vw;
+    color: #ffffff;
+    background-color: #e75700;
+    border: 0.25vw solid #101928  ;
+    border-radius: 1vw;
+}
+.real{
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
 .ExhibitHeading {
@@ -20,8 +24,8 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.75vw;
-    color: #002933;
-    background-color: #80e5ff;
-    border: 0.25vw solid #005266;
+    color: #ffffff;
+    background-color: #101928;
+    border: 0.25vw solid #101928;
     border-radius: 2vw;
 }
