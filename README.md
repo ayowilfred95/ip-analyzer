@@ -28,4 +28,4 @@ For any questions, feedback, or inquiries regarding IP Analyzer, please contact 
 
 [Application Live Link](https://ip-analyzer-teal.vercel.app)
 
-[![Video](video/video.mp4)](video/video.mp4)
+[![Video](https://raw.githubusercontent.com/ayowilfred95/ip-analyzer/main/video/video.mp4)](https://raw.githubusercontent.com/ayowilfred95/ip-analyzer/main/video/video.mp4)
