@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { w3cwebsocket as W3CWebSocket } from "websocket";
-const client = new W3CWebSocket('ws://localhost:55455');
+const client = new W3CWebSocket('wss://ip-analyzer-2-0-0.onrender.com');
 
 class PylonConnector extends Component {
     constructor(props) {

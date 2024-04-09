@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 55455
 
-CMD ["node", "server.js"]
+CMD npm run start
