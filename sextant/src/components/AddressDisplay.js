@@ -1,27 +1,20 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 
-class AddressDisplay extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            url: props.url,
-            ipAddress: null
-        };
-    }
+const AddressDisplay = ({ url }) => {
+    const [ipAddress, setIpAddress] = useState(null);
 
-    componentDidMount() {
-        fetch(this.state.url)
+    useEffect(() => {
+        fetch(url)
             .then(response => response.json())
-            .then(data => this.setState({ ipAddress: data.ip }));
-    }
+            .then(data => setIpAddress(data.ip));
+    }, [url]);
 
-    render() {
-        return (
-            <span className="AddressDisplay">
-                {this.state.ipAddress}
-            </span>
-        );
-    }
-}
+    return (
+        <span className="AddressDisplay">
+            {ipAddress}
+        </span>
+    );
+};
 
 export default AddressDisplay;
+
