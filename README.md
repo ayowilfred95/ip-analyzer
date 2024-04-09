@@ -28,5 +28,5 @@ For any questions, feedback, or inquiries regarding IP Analyzer, please contact 
 
 [Application Live Link](https://ip-analyzer-teal.vercel.app)
 
-![Demo GIF](video/video1.gif.gif)
+<img src="video/video1.gif" alt="Demo GIF">
 
